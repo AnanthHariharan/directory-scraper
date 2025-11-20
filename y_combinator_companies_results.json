@@ -1,0 +1,746 @@
+[
+  {
+    "name": null,
+    "description": null,
+    "website": "Show 1,000+ companies",
+    "batch": "Show 1,000+ companies"
+  },
+  {
+    "name": "DoorDash",
+    "description": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and BeverageCoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and ExchangeAirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and TourismOkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergyInstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and BeverageGrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset ManagementRigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and RoboticsDropboxSan Francisco, CA, USABackup and share files in the cloud.Summer 2007B2BProductivityGitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and DesignBillionT",
+    "website": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and BeverageCoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and ExchangeAirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and TourismOkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergyInstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSumm",
+    "batch": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and BeverageCoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and ExchangeAirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and TourismOkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergyInstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSumm"
+  },
+  {
+    "name": "DoorDash",
+    "description": null,
+    "website": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and Beverage",
+    "batch": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and Beverage"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "DoorDash",
+    "description": null,
+    "website": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and Beverage",
+    "batch": "DoorDashSan Francisco, CA, USARestaurant delivery.Summer 2013ConsumerFood and Beverage"
+  },
+  {
+    "name": "Coinbase",
+    "description": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange",
+    "website": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange",
+    "batch": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Coinbase",
+    "description": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange",
+    "website": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange",
+    "batch": "CoinbaseSan Francisco, CA, USABuy, sell, and manage cryptocurrencies.Summer 2012FintechBanking and Exchange"
+  },
+  {
+    "name": "Airbnb",
+    "description": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism",
+    "website": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism",
+    "batch": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Airbnb",
+    "description": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism",
+    "website": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism",
+    "batch": "AirbnbSan Francisco, CA, USABook accommodations around the world.Winter 2009ConsumerTravel, Leisure and Tourism"
+  },
+  {
+    "name": "Oklo",
+    "description": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy",
+    "website": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy",
+    "batch": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Oklo",
+    "description": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy",
+    "website": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy",
+    "batch": "OkloSanta Clara, CA, USAEmission free, always on power from advanced fission power plants.Summer 2014IndustrialsEnergy"
+  },
+  {
+    "name": "Instacart",
+    "description": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage",
+    "website": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage",
+    "batch": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Instacart",
+    "description": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage",
+    "website": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage",
+    "batch": "InstacartSan Francisco, CA, USAMarketplace for grocery delivery and pickupSummer 2012ConsumerFood and Beverage"
+  },
+  {
+    "name": "Groww",
+    "description": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management",
+    "website": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management",
+    "batch": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Groww",
+    "description": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management",
+    "website": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management",
+    "batch": "GrowwBengaluru, KA, IndiaMaking financial services simple, transparent and delightful. Winter 2018FintechAsset Management"
+  },
+  {
+    "name": "Rigetti Computing",
+    "description": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics",
+    "website": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics",
+    "batch": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Rigetti Computing",
+    "description": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics",
+    "website": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics",
+    "batch": "Rigetti ComputingBerkeley, CA, USAQuantum coherent supercomputing.Summer 2014IndustrialsManufacturing and Robotics"
+  },
+  {
+    "name": "Dropbox",
+    "description": null,
+    "website": "DropboxSan Francisco, CA, USABackup and share files in the cloud.Summer 2007B2BProductivity",
+    "batch": "DropboxSan Francisco, CA, USABackup and share files in the cloud.Summer 2007B2BProductivity"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Dropbox",
+    "description": null,
+    "website": "DropboxSan Francisco, CA, USABackup and share files in the cloud.Summer 2007B2BProductivity",
+    "batch": "DropboxSan Francisco, CA, USABackup and share files in the cloud.Summer 2007B2BProductivity"
+  },
+  {
+    "name": "GitLab",
+    "description": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design",
+    "website": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design",
+    "batch": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "GitLab",
+    "description": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design",
+    "website": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design",
+    "batch": "GitLabSan Francisco, CA, USAA complete DevOps platform delivered as a single application.Winter 2015B2BEngineering, Product and Design"
+  },
+  {
+    "name": "BillionToOne",
+    "description": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics",
+    "website": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics",
+    "batch": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "BillionToOne",
+    "description": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics",
+    "website": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics",
+    "batch": "BillionToOneMenlo Park, CA, USAThe genetic testing platform detecting and measuring disease.Summer 2017HealthcareDiagnostics"
+  },
+  {
+    "name": "Matterport",
+    "description": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality",
+    "website": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality",
+    "batch": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Matterport",
+    "description": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality",
+    "website": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality",
+    "batch": "MatterportSunnyvale, CA, USATurn physical objects and environments into 3D models in seconds.Winter 2012ConsumerVirtual and Augmented Reality"
+  },
+  {
+    "name": "PagerDuty",
+    "description": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design",
+    "website": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design",
+    "batch": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "PagerDuty",
+    "description": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design",
+    "website": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design",
+    "batch": "PagerDutySan Francisco, CA, USAReal-time visibility into critical apps and services all in one place.Summer 2010B2BEngineering, Product and Design"
+  },
+  {
+    "name": "Amplitude",
+    "description": null,
+    "website": "AmplitudeSan Francisco, CA, USADigital Analytics PlatformWinter 2012B2BAnalytics",
+    "batch": "AmplitudeSan Francisco, CA, USADigital Analytics PlatformWinter 2012B2BAnalytics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Amplitude",
+    "description": null,
+    "website": "AmplitudeSan Francisco, CA, USADigital Analytics PlatformWinter 2012B2BAnalytics",
+    "batch": "AmplitudeSan Francisco, CA, USADigital Analytics PlatformWinter 2012B2BAnalytics"
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "description": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio",
+    "website": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio",
+    "batch": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "description": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio",
+    "website": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio",
+    "batch": "Ginkgo BioworksBoston, MA, USAOur mission is to make biology easier to engineer.Summer 2014HealthcareIndustrial Bio"
+  },
+  {
+    "name": "Weave",
+    "description": null,
+    "website": "WeaveLehi, UT, USACustomer communication and payments platform.Winter 2014B2BOffice Management",
+    "batch": "WeaveLehi, UT, USACustomer communication and payments platform.Winter 2014B2BOffice Management"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Weave",
+    "description": null,
+    "website": "WeaveLehi, UT, USACustomer communication and payments platform.Winter 2014B2BOffice Management",
+    "batch": "WeaveLehi, UT, USACustomer communication and payments platform.Winter 2014B2BOffice Management"
+  },
+  {
+    "name": "Pardes Biosciences",
+    "description": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery",
+    "website": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery",
+    "batch": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Pardes Biosciences",
+    "description": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery",
+    "website": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery",
+    "batch": "Pardes BiosciencesSan Francisco, CA, USAWe break virusesSummer 2020HealthcareDrug Discovery and Delivery"
+  },
+  {
+    "name": "Embark Trucks",
+    "description": null,
+    "website": "Embark TrucksSan Francisco, CA, USASelf-driving semi trucks.Winter 2016IndustrialsAutomotive",
+    "batch": "Embark TrucksSan Francisco, CA, USASelf-driving semi trucks.Winter 2016IndustrialsAutomotive"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Embark Trucks",
+    "description": null,
+    "website": "Embark TrucksSan Francisco, CA, USASelf-driving semi trucks.Winter 2016IndustrialsAutomotive",
+    "batch": "Embark TrucksSan Francisco, CA, USASelf-driving semi trucks.Winter 2016IndustrialsAutomotive"
+  },
+  {
+    "name": "Momentus",
+    "description": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space",
+    "website": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space",
+    "batch": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Momentus",
+    "description": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space",
+    "website": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space",
+    "batch": "MomentusSanta Clara, CA, USAThe space infrastructure services companySummer 2018IndustrialsAviation and Space"
+  },
+  {
+    "name": "Lucira Health",
+    "description": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics",
+    "website": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics",
+    "batch": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Lucira Health",
+    "description": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics",
+    "website": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics",
+    "batch": "Lucira HealthEmeryville, CA, USANext generation infectious disease test kitsWinter 2015HealthcareDiagnostics"
+  },
+  {
+    "name": "Segment",
+    "description": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics",
+    "website": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics",
+    "batch": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Segment",
+    "description": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics",
+    "website": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics",
+    "batch": "SegmentSan Francisco, CA, USASoftware and APIs to collect, clean, and control customer data.Summer 2011B2BAnalytics"
+  },
+  {
+    "name": "Algolia",
+    "description": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design",
+    "website": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design",
+    "batch": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Algolia",
+    "description": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design",
+    "website": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design",
+    "batch": "AlgoliaSan Francisco, CA, USAA developer-friendly and enterprise-grade search API.Winter 2014B2BEngineering, Product and Design"
+  },
+  {
+    "name": "Truebill",
+    "description": null,
+    "website": "TruebillSilver Spring, MD, USALive your best financial lifeWinter 2016FintechConsumer Finance",
+    "batch": "TruebillSilver Spring, MD, USALive your best financial lifeWinter 2016FintechConsumer Finance"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Truebill",
+    "description": null,
+    "website": "TruebillSilver Spring, MD, USALive your best financial lifeWinter 2016FintechConsumer Finance",
+    "batch": "TruebillSilver Spring, MD, USALive your best financial lifeWinter 2016FintechConsumer Finance"
+  },
+  {
+    "name": "Twitch",
+    "description": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent",
+    "website": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent",
+    "batch": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Twitch",
+    "description": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent",
+    "website": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent",
+    "batch": "TwitchSan Francisco, CA, USAA global community creating the future of live entertainment.Winter 2007ConsumerContent"
+  },
+  {
+    "name": "PlanGrid",
+    "description": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction",
+    "website": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction",
+    "batch": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "PlanGrid",
+    "description": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction",
+    "website": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction",
+    "batch": "PlanGridSan Francisco, CA, USAMobile applications for the construction industry.Winter 2012Real Estate and ConstructionConstruction"
+  },
+  {
+    "name": "Bellabeat",
+    "description": null,
+    "website": "BellabeatSan Francisco, CA, USATech-powered women's wellness.Winter 2014ConsumerConsumer Electronics",
+    "batch": "BellabeatSan Francisco, CA, USATech-powered women's wellness.Winter 2014ConsumerConsumer Electronics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Bellabeat",
+    "description": null,
+    "website": "BellabeatSan Francisco, CA, USATech-powered women's wellness.Winter 2014ConsumerConsumer Electronics",
+    "batch": "BellabeatSan Francisco, CA, USATech-powered women's wellness.Winter 2014ConsumerConsumer Electronics"
+  },
+  {
+    "name": "Cruise",
+    "description": null,
+    "website": "CruiseSan Francisco, CA, USASelf-driving cars.Winter 2014IndustrialsAutomotive",
+    "batch": "CruiseSan Francisco, CA, USASelf-driving cars.Winter 2014IndustrialsAutomotive"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Cruise",
+    "description": null,
+    "website": "CruiseSan Francisco, CA, USASelf-driving cars.Winter 2014IndustrialsAutomotive",
+    "batch": "CruiseSan Francisco, CA, USASelf-driving cars.Winter 2014IndustrialsAutomotive"
+  },
+  {
+    "name": "Benchling",
+    "description": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B",
+    "website": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B",
+    "batch": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Benchling",
+    "description": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B",
+    "website": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B",
+    "batch": "BenchlingSan Francisco, CA, USAUnlocking the power of biotech with modern software for modern scienceSummer 2012B2B"
+  },
+  {
+    "name": "Casetext",
+    "description": null,
+    "website": "CasetextSan Francisco, CA, USAWe make the world's laws free and understandable. Summer 2013B2BLegal",
+    "batch": "CasetextSan Francisco, CA, USAWe make the world's laws free and understandable. Summer 2013B2BLegal"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Casetext",
+    "description": null,
+    "website": "CasetextSan Francisco, CA, USAWe make the world's laws free and understandable. Summer 2013B2BLegal",
+    "batch": "CasetextSan Francisco, CA, USAWe make the world's laws free and understandable. Summer 2013B2BLegal"
+  },
+  {
+    "name": "Bird",
+    "description": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design",
+    "website": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design",
+    "batch": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Bird",
+    "description": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design",
+    "website": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design",
+    "batch": "BirdAmsterdam, NH, NetherlandsThe world\u2019s largest omnichannel communications platformSummer 2016B2BEngineering, Product and Design"
+  },
+  {
+    "name": "Brex",
+    "description": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange",
+    "website": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange",
+    "batch": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Brex",
+    "description": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange",
+    "website": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange",
+    "batch": "BrexSan Francisco, CA, USABusiness accounts, corporate cards, and spend management software.Winter 2017FintechBanking and Exchange"
+  },
+  {
+    "name": "The Athletic",
+    "description": null,
+    "website": "The AthleticSan Francisco, CA, USASubscription sports media.Summer 2016ConsumerContent",
+    "batch": "The AthleticSan Francisco, CA, USASubscription sports media.Summer 2016ConsumerContent"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "The Athletic",
+    "description": null,
+    "website": "The AthleticSan Francisco, CA, USASubscription sports media.Summer 2016ConsumerContent",
+    "batch": "The AthleticSan Francisco, CA, USASubscription sports media.Summer 2016ConsumerContent"
+  },
+  {
+    "name": "Codecademy",
+    "description": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education",
+    "website": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education",
+    "batch": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Codecademy",
+    "description": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education",
+    "website": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education",
+    "batch": "CodecademyNew York, NY, USAThe leading online learning platform for technical skills.Summer 2011Education"
+  },
+  {
+    "name": "Checkr",
+    "description": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources",
+    "website": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources",
+    "batch": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Checkr",
+    "description": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources",
+    "website": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources",
+    "batch": "CheckrSan Francisco, CA, USAPeople infrastructure for the future of workSummer 2014B2BHuman Resources"
+  },
+  {
+    "name": "Lever",
+    "description": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent",
+    "website": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent",
+    "batch": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Lever",
+    "description": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent",
+    "website": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent",
+    "batch": "LeverSan Francisco, CA, USATalent Acquisition Suite that combines ATS + Talent CRMSummer 2012B2BRecruiting and Talent"
+  },
+  {
+    "name": "Clipboard",
+    "description": null,
+    "website": "ClipboardSan Francisco, CA, USAConnects workplaces with professionals nearby.Winter 2017Consumer",
+    "batch": "ClipboardSan Francisco, CA, USAConnects workplaces with professionals nearby.Winter 2017Consumer"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Clipboard",
+    "description": null,
+    "website": "ClipboardSan Francisco, CA, USAConnects workplaces with professionals nearby.Winter 2017Consumer",
+    "batch": "ClipboardSan Francisco, CA, USAConnects workplaces with professionals nearby.Winter 2017Consumer"
+  },
+  {
+    "name": "Heap",
+    "description": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics",
+    "website": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics",
+    "batch": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Heap",
+    "description": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics",
+    "website": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics",
+    "batch": "HeapSan Francisco, CA, USACaptures user interactions with no code to generate analytics.Winter 2013B2BAnalytics"
+  },
+  {
+    "name": "Sendwave",
+    "description": null,
+    "website": "SendwaveBoston, MA, USAInstant, no fee international remittances.Winter 2012FintechPayments",
+    "batch": "SendwaveBoston, MA, USAInstant, no fee international remittances.Winter 2012FintechPayments"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Sendwave",
+    "description": null,
+    "website": "SendwaveBoston, MA, USAInstant, no fee international remittances.Winter 2012FintechPayments",
+    "batch": "SendwaveBoston, MA, USAInstant, no fee international remittances.Winter 2012FintechPayments"
+  },
+  {
+    "name": "Deel",
+    "description": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting",
+    "website": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting",
+    "batch": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Deel",
+    "description": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting",
+    "website": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting",
+    "batch": "DeelSan Francisco, CA, USAThe all-in-one HR and payroll platform for global teamsWinter 2019B2BFinance and Accounting"
+  },
+  {
+    "name": "Clever",
+    "description": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education",
+    "website": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education",
+    "batch": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Clever",
+    "description": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education",
+    "website": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education",
+    "batch": "CleverSan Francisco, CA, USAThe platform that powers technology in the classroom.Summer 2012Education"
+  },
+  {
+    "name": "Caper",
+    "description": null,
+    "website": "CaperPlug-and-play cashier-less retail powered by computer vision and AIWinter 2016B2BRetail",
+    "batch": "CaperPlug-and-play cashier-less retail powered by computer vision and AIWinter 2016B2BRetail"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  },
+  {
+    "name": "Caper",
+    "description": null,
+    "website": "CaperPlug-and-play cashier-less retail powered by computer vision and AIWinter 2016B2BRetail",
+    "batch": "CaperPlug-and-play cashier-less retail powered by computer vision and AIWinter 2016B2BRetail"
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": "Loading more...",
+    "batch": "Loading more..."
+  },
+  {
+    "name": null,
+    "description": null,
+    "website": null,
+    "batch": null
+  }
+]
