@@ -2,9 +2,66 @@
 
 A web scraper that extracts structured data from any directory website. Handles static/dynamic content, pagination, and various layouts without site-specific customization.
 
+**Current Quality: ~68% field accuracy** (without LLMs)
+
 ---
 
-## 🚀 Get Started
+## ⚡ Quick Start
+
+### Basic Usage (No API Keys Needed)
+
+```bash
+pip install -r requirements.txt
+playwright install chromium
+python test_scraper.py  # Test on Berkeley Math directory
+```
+
+### With LLM Enhancement (Recommended for Best Quality)
+
+```bash
+# Set your OpenAI API key
+export OPENAI_API_KEY='sk-your-key-here'
+
+# Run with LLM fallback enabled
+python -c "
+from scraper import DirectoryScraper
+
+scraper = DirectoryScraper(use_llm=True, verbose=True)
+results = scraper.scrape(
+    'https://math.berkeley.edu/people/graduate-students',
+    {'name': 'name', 'email': 'email'}
+)
+print(f'Extracted {len(results)} entries')
+scraper.close()
+"
+```
+
+### With Sixtyfour Enrichment (Add LinkedIn, Company Data)
+
+```bash
+# Set your Sixtyfour API key
+export SIXTYFOUR_API_KEY='your-sixtyfour-key'
+
+# Enrich scraped data
+python -c "
+from scraper import DirectoryScraper
+from sixtyfour_integration import SixtyfourClient
+
+# 1. Scrape directory
+scraper = DirectoryScraper(use_llm=True)
+results = scraper.scrape('https://your-directory.com', {'name': 'name', 'email': 'email'})
+scraper.close()
+
+# 2. Enrich with Sixtyfour
+client = SixtyfourClient()
+enriched = client.enrich_scraped_data(results)
+print(f'Enriched {len(enriched)} records with LinkedIn/company data')
+"
+```
+
+---
+
+## 🚀 Full Setup Guide
 
 ### 1. Install
 
@@ -35,8 +92,12 @@ fields = {
     "title": "job title or position"
 }
 
-# Scrape!
+# Basic scraping (no LLM)
 scraper = DirectoryScraper(verbose=True)
+results = scraper.scrape("https://your-directory.com", fields)
+
+# OR: With LLM enhancement
+scraper = DirectoryScraper(use_llm=True, llm_api_key='sk-...', verbose=True)
 results = scraper.scrape("https://your-directory.com", fields)
 
 print(f"Found {len(results)} entries!")

@@ -1,6 +1,7 @@
 """Main directory scraper orchestrator."""
 
 import time
+import os
 from typing import Dict, Any, List, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
@@ -22,7 +23,8 @@ class DirectoryScraper:
         max_workers: int = 5,
         timeout: int = 30,
         max_pages: int = 100,
-        verbose: bool = True
+        verbose: bool = True,
+        debug: bool = False
     ):
         """
         Initialize the scraper.
@@ -34,12 +36,17 @@ class DirectoryScraper:
             timeout: Request timeout
             max_pages: Maximum pages to scrape
             verbose: Print progress
+            debug: Save debug information (HTML of failed pages)
         """
         self.fetcher = ContentFetcher(timeout=timeout)
         self.llm_extractor = LLMExtractor(api_key=llm_api_key) if use_llm else None
         self.max_workers = max_workers
         self.max_pages = max_pages
         self.verbose = verbose
+        self.debug = debug
+        
+        if self.debug:
+            os.makedirs("debug_output", exist_ok=True)
 
     def scrape(
         self,
@@ -131,6 +138,13 @@ class DirectoryScraper:
             page_results = self._extract_from_listing_page(
                 soup, field_schema, page_url, fetch_strategy
             )
+            
+            if not page_results and self.debug:
+                # Save HTML for debugging
+                filename = f"debug_output/failed_page_{page_num}.html"
+                with open(filename, 'w', encoding='utf-8') as f:
+                    f.write(str(soup))
+                print(f"DEBUG: Saved failed page HTML to {filename}")
 
             all_results.extend(page_results)
 
@@ -164,6 +178,14 @@ class DirectoryScraper:
         if self.verbose:
             print(f"Found {len(elements)} repeating elements")
 
+        # Check for table headers - if found, prefer table extraction
+        if elements and elements[0].name == 'tr':
+            headers = StructureAnalyzer.extract_table_headers(elements[0])
+            if headers:
+                if self.verbose:
+                    print(f"Found table headers: {headers}. Preferring table extraction.")
+                return self._extract_from_elements(elements, field_schema, page_url)
+
         # Check if elements contain links to detail pages
         links = StructureAnalyzer.extract_links_from_elements(elements, page_url)
 
@@ -191,8 +213,22 @@ class DirectoryScraper:
 
         results = []
 
+        # Check for table headers if elements are rows
+        headers = None
+        if elements and elements[0].name == 'tr':
+            headers = StructureAnalyzer.extract_table_headers(elements[0])
+            if self.verbose and headers:
+                print(f"Found table headers: {headers}")
+
         for element in elements:
-            data = DataExtractor.extract_from_element(element, field_schema, base_url)
+            if headers:
+                data = DataExtractor.extract_from_table_row_with_headers(element, field_schema, base_url, headers)
+            else:
+                data = DataExtractor.extract_from_element(element, field_schema, base_url)
+
+            # Filter out empty results
+            if not any(data.values()):
+                continue
 
             # Use LLM if enabled and data is incomplete
             if self.llm_extractor:
@@ -302,7 +338,8 @@ def scrape_directory(
     llm_api_key: Optional[str] = None,
     max_workers: int = 5,
     max_pages: int = 100,
-    verbose: bool = True
+    verbose: bool = True,
+    debug: bool = False
 ) -> List[Dict[str, Any]]:
     """
     Convenience function to scrape a directory.
@@ -315,6 +352,7 @@ def scrape_directory(
         max_workers: Max concurrent workers
         max_pages: Max pages to scrape
         verbose: Print progress
+        debug: Save debug information
 
     Returns:
         List of extracted data
@@ -324,7 +362,8 @@ def scrape_directory(
         llm_api_key=llm_api_key,
         max_workers=max_workers,
         max_pages=max_pages,
-        verbose=verbose
+        verbose=verbose,
+        debug=debug
     )
 
     try:

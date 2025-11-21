@@ -13,7 +13,7 @@ def test_directory(name, url, field_schema, max_pages=1):
     print(f"{'='*70}")
 
     scraper = DirectoryScraper(
-        use_llm=False,  # Set to True to enable LLM fallback
+        use_llm=True,  # Set to True to enable LLM fallback
         max_workers=5,
         max_pages=max_pages,
         verbose=True
@@ -84,12 +84,11 @@ Testing scraper on 7 different directory formats...
             "url": "https://profiles.stanford.edu/browse/school-of-engineering?p=1&ps=100",
             "schema": {
                 "name": "name of the person",
-                "title": "their title or position",
                 "email": "email address",
                 "page_url": "profile page URL",
                 "bio": "biography or research interests"
             },
-            "max_pages": 2  # Just test first 2 pages
+            "max_pages": 2
         },
         {
             "name": "San Diego Psychologists",

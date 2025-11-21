@@ -28,18 +28,43 @@ def extract_email(text: str) -> Optional[str]:
     """Extract email address from text."""
     if not text:
         return None
-    email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
+    # More comprehensive email pattern
+    email_pattern = r'\b[A-Za-z0-9][A-Za-z0-9._%+-]*@[A-Za-z0-9][A-Za-z0-9.-]*\.[A-Za-z]{2,}\b'
     match = re.search(email_pattern, text)
-    return match.group(0) if match else None
+
+    if match:
+        email = match.group(0)
+        # Clean up common issues
+        email = email.strip('.')
+        return email
+
+    return None
 
 
 def extract_phone(text: str) -> Optional[str]:
     """Extract phone number from text."""
     if not text:
         return None
-    phone_pattern = r'\b(?:\+?1[-.\s]?)?\(?([0-9]{3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})\b'
-    match = re.search(phone_pattern, text)
-    return match.group(0) if match else None
+
+    # Try multiple phone patterns (US-centric but flexible)
+    patterns = [
+        # (123) 456-7890 or 123-456-7890 or 123.456.7890
+        r'\b(?:\+?1[-.\s]?)?\(?([0-9]{3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})\b',
+        # 1234567890
+        r'\b([0-9]{10})\b',
+        # +1 123 456 7890
+        r'\b\+?1?\s*\(?([0-9]{3})\)?\s*([0-9]{3})\s*([0-9]{4})\b'
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            phone = match.group(0)
+            # Normalize: remove common separators but keep the digits
+            return phone.strip()
+
+    return None
 
 
 def get_url_hash(url: str) -> str:
